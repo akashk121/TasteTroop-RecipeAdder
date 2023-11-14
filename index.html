@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteTroop</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xr4Gvca1YptJU5QN4FcbMejFEQGp6daLYrJ14CN2pOodmXjHD7+JZ7uEeFwxyMmY3W61NcqV/zjTFeZ8sbvgKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-color:rgb(238, 229, 229)">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <img class="logo" src="images/Logo.png" alt="Company logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="addRecipe.html">Add Recipe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+       <div class="main">
+         <div class="main-left">
+            <h2>Crafting Culinary Memories, <br> One Recipe at a Time. Share the Taste,<br> Share the Tradition on <br> <strong>"TasteTroop"</strong>
+            </h2>
+            <button class="btn btn-light" style="background-color: rgba(255, 255, 255, 0); border: 1px solid #000;">Know More</button>
+
+
+         </div>
+       </div>
+       <div class="card-first container">
+        <div class="row">
+            <div class="col col-sm-12 col-md-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card" style="width: 18rem; height: 23rem;">
+                    <img src="images/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Biriyani</h5>
+                      <p class="card-text">Biryani: Aromatic rice, meat, spices—a timeless culinary delight for centuries.</p>
+                      <a href="#" class="btn btn-dark" onclick="showAlert()">Add Recipe</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-3 ">
+                <div class="card" style="width: 18rem; height: 23rem;">
+                    <img src="images/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Salad</h5>
+                      <p class="card-text">Fresh salad: crisp greens, vibrant veggies—a burst of healthful flavors.</p>
+                      <a href="#" class="btn btn-dark" onclick="showAlert()">Add Recipe</a>
+                    </div>
+                  </div>
+              
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-3 ">
+                <div class="card" style="width: 18rem; height: 23rem;">
+                    <img src="images/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Alfam Mandi</h5>
+                      <p class="card-text">Mandi: Traditional Arabic rice and meat dish, slow-cooked for exquisite flavors.</p>
+                      <a href="#" class="btn btn-dark" onclick="showAlert()">Add Recipe</a>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col col-sm-12 col-md-6 col-lg-3 ">
+                <div class="card" style="width: 18rem; height: 23rem;">
+                    <img src="images/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Chicken Fry</h5>
+                      <p class="card-text">Chicken fry: Crispy, golden-brown pieces, seasoned and fried to flavorful perfection.</p>
+                      <a href="#" class="btn btn-dark" onclick="showAlert()">Add Recipe</a>
+                    </div>
+                  </div>
+                
+              </div>
+          </div>
+       </div >
+       <div class=" form1  container ">
+        <h1 id="contact">Contact</h1>
+     <div class="form ">
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark button-style">Submit</button>
+        </form>
+        </div>
+     </div>
+    <footer>
+      <div class="foot">
+        <p>&copy; Copyright 2023 | All rights reserved Akash K.</p>
+      </div>
+        <div class="icon-style">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+
+      
+    </footer>
+    <script src="alert.js"></script>
+    <script src="https://kit.fontawesome.com/47af21fe36.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
